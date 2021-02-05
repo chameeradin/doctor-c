@@ -1,0 +1,51 @@
+.modal{
+  &.special-note{
+    .modal-dialog{
+      .modal-content{
+        background: $white;
+        border: 5px solid $success;
+        border-radius: 15px;
+        .modal-header{
+          text-align: center;
+          h5{
+            font-size: 2rem;
+            font-weight: 800;
+            font-family: $font-ciutadella;
+            width: 100%;
+          }
+          .close{
+            position: absolute;
+            right: 15px;
+            top: 15px;
+            span{
+              font-size: 1.5rem;
+            }
+          }
+        }
+        .modal-body{
+          font-family: $font-ciutadella;
+          text-align: center;
+          font-size: 1.2rem;
+          @include media-breakpoint-up(xs){
+            padding: 2rem;
+          }
+          .lead{
+            background: $light;
+            border-radius: 40px;
+            padding: 0.5rem;
+          }
+        }
+        .modal-footer{
+          justify-content: center;
+          button{
+            font-size: 1.4rem;
+            font-family: $font-ciutadella;
+            font-weight: 600;
+            padding: 0.4rem 2.5rem;
+            border-radius: 8px;
+          }
+        }
+      }
+    }
+  }
+}

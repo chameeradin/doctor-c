@@ -1,0 +1,52 @@
+header{
+  &.site-header{
+    padding: 2rem 0;
+    align-items: center;
+    border-bottom: 1px solid $light;
+    font-family: $font-ciutadella;
+    @include media-breakpoint-down(sm){
+      padding: 1rem 0;
+    }
+    .logo{
+      @include media-breakpoint-between(sm,md){
+        max-width: 50%;
+      }
+      @include media-breakpoint-down(sm){
+        max-width: 70%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      @include media-breakpoint-down(xs){
+        max-width: 90%;
+      }
+    }
+    .website-title{
+      color: $dark;
+      text-align: right;
+      margin-right: 0;
+      margin-left: auto;
+      @include media-breakpoint-down(md){
+        max-width: 50%;
+      }
+      @include media-breakpoint-down(sm){
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        margin-top: 1rem;
+        max-width: 100%;
+      }
+      h3{
+        margin: 0;
+        @include media-breakpoint-down(md){
+          font-size: 1.4rem;
+        }
+        @include media-breakpoint-down(sm){
+          font-size: 1.2rem;
+        }
+      }
+      p{
+        margin: 0;
+      }
+    }
+  }
+}

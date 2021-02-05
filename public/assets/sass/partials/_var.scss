@@ -1,0 +1,54 @@
+$red:     #ff0000;
+$body-color: #2a2a2a;
+$primary: #522367;
+$secondary: #f5723a;
+$success: #20c997;
+$dark:    #140a2f;
+$light:   #e4e4e4;
+$warning: #f9b000;
+$bg-primary: #522367;
+$white: #ffffff;
+$info:  #1da1f2;
+$danger: $red;
+$card-border: #c1c1c1;
+$gray-border: #e8e8e8;
+$primary-title: #522367;
+$light-gray-title: #777777;
+$gray-bg: #f8f8f8;
+$link-hover: #8d38b8;
+$tag-bg: #00a4ad;
+$offer-color:#ea570a;
+
+$card-text-color: #585858;
+
+
+
+$font-ciutadella: 'Ciutadella Rounded';
+$font-regular: 'Open Sans', sans-serif;
+
+
+$font-family-sans-serif:  $font-ciutadella;
+$font-family-base:        $font-regular;
+
+$headings-font-family: $font-ciutadella;
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1120px
+);
+
+$card-border-radius:    0;
+$btn-border-radius:     3px;
+$btn-border-radius-lg:  5px;
+$btn-border-radius-sm:  0;
+
+$card-border-color:     $card-border;
+
+$input-border-radius:    3px;
+$input-border-radius-lg: 5px;
+$input-border-radius-sm: 0;
+
+$h1-font-size:  2.2rem;

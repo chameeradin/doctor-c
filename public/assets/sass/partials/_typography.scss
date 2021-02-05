@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@font-face {
+  font-family: 'Ciutadella Rounded';
+  src: url('../fonts/CiutadellaRounded/CiutadellaRounded-SmBd.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/CiutadellaRounded/CiutadellaRounded-SmBd.woff2') format('woff2'),
+  url('../fonts/CiutadellaRounded/CiutadellaRounded-SmBd.woff') format('woff'),
+  url('../fonts/CiutadellaRounded/CiutadellaRounded-SmBd.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ciutadella Rounded';
+  src: url('../fonts/CiutadellaRounded/CiutadellaRounded-Bd.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/CiutadellaRounded/CiutadellaRounded-Bd.woff2') format('woff2'),
+  url('../fonts/CiutadellaRounded/CiutadellaRounded-Bd.woff') format('woff'),
+  url('../fonts/CiutadellaRounded/CiutadellaRounded-Bd.ttf')  format('truetype'); /* Safari, Android, iOS */
+
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ciutadella Rounded';
+  src: url('../fonts/CiutadellaRounded/CiutadellaRounded-Md.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/CiutadellaRounded/CiutadellaRounded-Md.woff2') format('woff2'),
+  url('../fonts/CiutadellaRounded/CiutadellaRounded-Md.woff') format('woff'),
+  url('../fonts/CiutadellaRounded/CiutadellaRounded-Md.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Ciutadella Rounded';
+  src: url('../fonts/CiutadellaRounded/CiutadellaRounded-Rg.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/CiutadellaRounded/CiutadellaRounded-Rg.woff2') format('woff2'),
+  url('../fonts/CiutadellaRounded/CiutadellaRounded-Rg.woff') format('woff'),
+  url('../fonts/CiutadellaRounded/CiutadellaRounded-Rg.ttf')  format('truetype'); /* Safari, Android, iOS */
+  font-weight: normal;
+  font-style: normal;
+}
